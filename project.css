@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color : white;
+    color: black;
+  }
+
+  #lg {
+    text-align: left;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: #008000; /* green */
+  }
+  
+  header {
+    background-color: #000000; /* black */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #ff0000; /* red */
+  }
+  
+  .menu {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu a {
+    color: black;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+
+  #pp {
+    text-align: center;
+  }
+  
+  #predictions {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #predictions ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #predictions li {
+    margin-right: 20px;
+  }
+
+  #home {
+    background-color: black;
+color: #f5f5f5;
+margin: 0;
+padding: 2px;
+  }
+  #away {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 2px;
+  }
+  #under {
+    background-color: black;
+color: #f5f5f5;
+margin: 0;
+padding: 2px;
+  }
+  #over {
+    background-color: white;
+color: black;
+margin: 0;
+padding: 2px;
+  }
+  #contact {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contact ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin-right: 20px;
+  }
+  
+  footer {
+    background-color: #000000; /* black */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  footer nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer nav li {
+    margin-right: 20px;
+  }
+  
+  footer nav a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  footer nav a:hover {
+    color: #008000; /* green */
+  }
+
+
+
+ /* logi page */
+
+ #loginpage body { background-color: black; color: blue; font-family: Arial, sans-serif; } form { width: 300px; margin: 0 auto; padding: 20px; background-color: white; border-radius: 5px; } input[type="text"], input[type="password"] { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid blue; border-radius: 5px; } button { background-color: blue; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; } button:hover { background-color: white; } a { color: white; text-decoration: red; } a:hover { color: darkblue; }
